@@ -69,4 +69,4 @@ def menu():
         else:
             print("Niepoprawny wybór")
 
-menu()
+menu()2

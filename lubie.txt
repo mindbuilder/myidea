@@ -1,12 +1,1 @@
-# Program dodający dwie liczby
-print("Witaj w kalkulatorze!")
-
-# Pobieranie danych od użytkownika
-liczba1 = input("Podaj pierwszą liczbę: ")
-liczba2 = input("Podaj drugą liczbę: ")
-
-# Konwersja tekstu na liczby i obliczenia
-wynik = float(liczba1) + float(liczba2)
-
-# Wyświetlenie wyniku
-print(f"Suma Twoich liczb to: {wynik}")itaj
+("Witaj w kalkulatorze!")# Pobieranie danych od użytkownikaliczba1 = input("Podaj pierwszą liczbę: ")liczba2 = input("Podaj drugą liczbę: ")# Konwersja tekstu na liczby i obliczeniawynik = float(liczba1) + float(liczba2)

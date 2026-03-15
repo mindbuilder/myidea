@@ -3,7 +3,7 @@ wzrost = float(input("Podaj swój wzrost w metrach (np. 1.75): "))
 
 bmi = masa / (wzrost ** 2)
 
-print("Twoje BMI wynosi:", round(bmi, 2))
+print("Twoje BMI wynosi:", round(bmi, 3))
 
 if bmi < 18.5:
     print("Masz niedowagę")
@@ -12,5 +12,7 @@ elif bmi < 25:
 elif bmi < 30:
     print("Masz nadwagę")
 else:
-    print("Otyłość")
+    print("Masz otyłość")
+
+
     

@@ -1,4 +1,4 @@
-masa = float(input("Podaj swoją wagę w kg:"))
+masa = float(input("Podaj swoją masę ciała w kg:"))
 wzrost = float(input("Podaj swój wzrost w metrach (np. 1.75): "))
 
 bmi = masa / (wzrost ** 2)

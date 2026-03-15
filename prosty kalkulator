@@ -1,0 +1,37 @@
+def dodawanie(a, b):
+    return a + b
+
+def odejmowanie(a, b):
+    return a - b
+
+def mnozenie(a, b):
+    return a * b
+
+def dzielenie(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Nie można dzielić przez zero"
+
+print("Wybierz operację:")
+print("1. Dodawanie")
+print("2. Odejmowanie")
+print("3. Mnożenie")
+print("4. Dzielenie")
+
+wybor = input("Wybierz numer operacji (1/2/3/4): ")
+
+if wybor in ('1', '2', '3', '4'):
+    num1 = float(input("Podaj pierwszą liczbę: "))
+    num2 = float(input("Podaj drugą liczbę: "))
+
+    if wybor == '1':
+        print("Wynik:", dodawanie(num1, num2))
+    elif wybor == '2':
+        print("Wynik:", odejmowanie(num1, num2))
+    elif wybor == '3':
+        print("Wynik:", mnozenie(num1, num2))
+    elif wybor == '4':
+        print("Wynik:", dzielenie(num1, num2))
+else:
+    print("Błędny wybór")
